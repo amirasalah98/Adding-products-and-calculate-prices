@@ -1,0 +1,60 @@
+body{
+    width: 100%;
+    
+}
+*{
+    background-color: rgb(250, 244, 235);
+    font-family:cursive;
+    color: darkslategray;
+}
+
+#pName ,#pPrice{
+margin-right: 50px;
+border-color: rgba(245, 222, 179, 0.541);
+border-radius: 7px;
+margin: 20px;
+/* width: 200px; */
+}
+
+#addBtn, #deleteBtn{
+    
+cursor: pointer;
+background-color: darkslategray;
+border-radius: 7px;
+color: rgb(250, 244, 235);
+
+
+}
+
+
+#addArea{
+    width: 500px;
+padding:20px;
+border-bottom: 1px solid rgba(47, 79, 79, 0.171);
+
+}
+#listnames{
+/* margin-right: 200px; */
+display: inline-block;
+text-align: center;
+width: 200px;
+overflow-wrap: break-word;
+border-radius: 7px;
+
+
+}
+#listprices{
+    display: inline-block;
+    text-align: center;
+    /* margin-right: 200px; */
+    width: 200px;
+
+
+}
+
+#total{
+    position: absolute;
+    top:30px;
+    left: 45%;
+}
+
